@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dupemod",
+  "version": "${version}",
+  "name": "DupeMod",
+  "description": "Mixin de servidor.",
+  "authors": ["TuNombre"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["dupemod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
